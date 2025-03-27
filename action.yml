@@ -45,7 +45,7 @@ runs:
     -
       uses: k1LoW/gh-setup@e2f12d046abe942ed4e6976980e53e2388238273 # v1.10.0
       with:
-        repo: github.com/k1LoW/octocov
+        repo: github.com/TP-113/octocov
         github-token: ${{ inputs.github-token }}
         version: ${{ inputs.version }}
         bin-dir: ${{ inputs.install-dir }}
